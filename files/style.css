@@ -13,17 +13,6 @@
 
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
-@import url(animate.min.css);
-@import url(normalize.css);
-@import url(icomoon.css);
-@import url(css/font-awesome.min.css);
-@import url(meanmenu.css);
-@import url(owl.carousel.min.css);
-@import url(swiper.min.css);
-@import url(slick.css);
-@import url(jquery.fancybox.min.css);
-@import url(jquery-ui.css);
-@import url(nice-select.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
@@ -224,13 +213,13 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(./banner-bg.png);
     height: auto;
     background-size: 100%;
 }
 
 .bg-light {
-    background-image: url(../images/header-bg.png);
+    background-image: url(./header-bg.png);
     background-color: transparent !important;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -458,7 +447,7 @@ button {
 .services_section{
     width: 100%;
     float: left;
-    background-image: url(../images/services-bg.png);
+    background-image: url(./services-bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -568,7 +557,7 @@ button {
 .events_bg {
     width: 100%;
     float: left;
-    background-image: url(../images/events-bg.png);
+    background-image: url(./events-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 160px 0px;
@@ -640,7 +629,7 @@ button {
 .contact_section {
     width: 100%;
     float: left;
-    background-image: url(../images/contact-bg.png);
+    background-image: url(./contact-bg.png);
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
