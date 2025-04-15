@@ -961,6 +961,13 @@ textarea#comment::placeholder {
 
 /* copyright section end */
 
+.links-footer a {
+    color: #FFF !important;
+}
+
+.links-footer a:hover {
+    text-decoration: underline !important;
+}
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
