@@ -380,7 +380,7 @@ button {
 }
 
 .about_taital {
-    width: 35%;
+    width: 55%;
     float: left;
     font-size: 40px;
     color: #0f0f0f;
@@ -718,6 +718,10 @@ textarea#comment::placeholder {
 .send_bt button:hover {
     background-color: #ffffff;
     color: #000;
+}
+
+.about-us-text p {
+    margin: 20px 0;
 }
 
 /* contact section end */
