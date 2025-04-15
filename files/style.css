@@ -229,7 +229,7 @@ button {
     padding-right: 15px;
     padding-left: 15px;
     font-size: 18px;
-    color: #acabab;
+    color: #13a25d;
     text-transform: uppercase;
 }
 .navbar-light .navbar-nav .nav-link:focus, 
@@ -245,6 +245,12 @@ button {
 .logo{ 
     width: 25%;
     float: left;
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+    margin-top: -45px;
 }
 
 .mr-auto, .mx-auto {
@@ -275,7 +281,7 @@ button {
     width: 100%;
     float: left;
     font-size: 48px;
-    color: #060707;
+    color: #13a25d;
     font-weight: bold;
 }
 .banner_text {
@@ -978,3 +984,11 @@ textarea#comment::placeholder {
         justify-content: flex-end !important;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .logo img {
+        max-width: unset !important;
+        width: 220px !important;
+        margin-top: 0;
+    }
+  }
